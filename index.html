@@ -6,38 +6,59 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Segoe UI", Arial, sans-serif;
             margin: 0;
-            background-color: #f4f6f8;
+            background-color: #eef2f5;
             color: #333;
         }
+
         .container {
-            max-width:900;
-            margin: auto;
+            max-width:900px;
+            margin: 40px auto;
             padding: 30px;
-            background: #ffffff;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
             text-align: center;
+            margin-bottom: 5px;
             color: #222;
-            margin-bottom: 20px;
         }
 
         .title {
             text-align: center;
-            color: #666;
-            margin-bottom: 20px;
+            color: #555;
+            margin-bottom: 30px;
+            font-size: 16px;
         }
 
         h2 {
             color: #0066cc;
-            border-bottom: 2px solid #ddd;
-            padding-top: 5px;
             margin-top: 30px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
         }
 
         ul {padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        .project {
+            background: #f9fafb;
+            padding: 5px;
+            border-left: 4px solid #0066cc;
+            margin-top: 15px;
+            border-radius: 4px;
         }
 
         a {
@@ -49,17 +70,23 @@
         a:hover {
             text-decoration: underline;
         }
-    .project {
-        background: #f9f9f9;
-        padding: 15px;
-        border-left: 4px solid #0066cc;
-        margin-top: 15px;
-    }
-    ul {
-        line-height: 1.8;
-    }
+        .rsume-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 22px;
+            background-color: #0066cc;
+            color: #ffffff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
+        .rsume-btn:hover {
+            background-color: #004999;
+        }
+        
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -70,12 +97,13 @@
     <hr>
 
     <h2>About Me</h2>
+    <h2>Career Objective</h2>
     <p>
-        I have completed Diploma in Computer Science Engineering and learning
-        full stack web development and building real-world projects.
+        Motivated and detailed-oriented Computer science diploma student with a pasion for CyberSecurity and programming. seeking opportunities to apply technical knowledge, grow professionally and contribute meaningfully innovative project in the tech industry and learing full stack web development and building real-world projects.
     </p>
 
     <h2>Skills</h2>
+    <h3>Web Developement</h3>
     <ul>
         <li>HTML</li>
         <li>CSS (Learning)</li>
@@ -94,20 +122,33 @@
     <h2>Projects</h2>
 <div class=""projects">
    <p>
-    <strong>A responsive personal portfolio website built using HTML and CSS to showcase my skills and contact details.</strong>
+    <strong>Description:</strong>Designed and Developed a responsive personal portfolio website to showcase skills, projects, and contact information.</strong>
    </p>
    <p><strong>Project in Cyber Threat Intelligence Dashboard</strong>
    </p>
-   <p>
-    <strong> Technologies:</strong> HTML, CSS
-   </p>
+   
+</div>
+<div class="project">
+    <h3>Cyber Threat Intelligence Dashboard</h3>
+    <p>
+        <strong>Description:</strong> A project focused on understanding and visualizing cyber threat intelligence data for security analysis.
+    </p>
+     <p>
+    <strong>Technologies:</strong> HTML, CSS (Learning Phase)
+      </p>
 </div>
 
     <h2>Contact</h2>
-    <p>Address: #719, 2nd main, 4th cross Kusturi Layout, Kamalanagar Bangalore Pin-560079.</p>
-    <p>Email: vigneshrao719@gmail.com</p>
-    <p>Phone: 8123992696</p>
-    <p>WhatsApp:<a href="https://wa.me/918123992696" target="_blank">
+    <p><strong>Email:<strong>
+        <a href="mailto:vigneshrao719@gmail.com">
+            vigneshrao719@gmail.com
+        </a>
+    </p>
+    <p><strong>Phone:</strong>
+        <span>8123992696</span>
+    </p>
+    <p><strong>WhatsApp:</strong>
+        <a href="https://wa.me/918123992696" target="_blank">
             Chat with me on WhatsApp
         </a>
     </p>
@@ -118,4 +159,3 @@
 </div>
 </body>
 </html>
-
