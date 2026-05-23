@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Vignesh | Portfolio</title>
-<style>
-                       body {
+<link rel="stylesheet" href="style.css">
+</head>
+<Style>
+        body {
             font-family: "Segoe UI", Arial, sans-serif;
             margin: 0;
             background-color: #eef2f5;
@@ -97,9 +99,8 @@
          .number {
         font-weight: normal;
 }
-
 </style>
-<link rel="stylesheet" href="style.css">
+    
 <body>
 <div class="container">
 
@@ -107,9 +108,8 @@
     <p class="title">WebDeveloper (Trainee) | Full Stack Developer (Trainee)</p>
     <hr>
 
-    <h2>
-    About Me
-    <button onclick="showMessage()">Click Me</button>
+    <h2 class="center-heading">
+        About Me <button onclick="showMessage()">Click Me</button>
 </h2>
     <h2>Career Objective</h2>
     <p>
@@ -130,18 +130,23 @@
         <li>Windows OS Installation and Configuration</li>
         <li>Basic Networking Concepts (LAN, WAN, MAN)</li>
         <li>IP Addressing (IPv4 basics)</li>
-        <li>Network cable Crimping (RJ45)</li>
+        <li>Network Cable Crimping (RJ45)</li>
         <li>Basic Knowledge of TCP/IP, DNS, DHCP</li>
     </ul>
     <h2>Projects</h2>
-<div class="projects">
-    
-    <h3>Project in Personal Portfoilio Website</h3>
+
+<div class="project">
+
+    <h3>Personal Portfolio Website</h3>
+
     <p>
-    <strong>Description:</strong>Designed and Developed a responsive personal portfolio website to showcase skills, projects, and contact information.</strong>
-   </p>
-   
+        <strong>Description:</strong>
+        Designed and Developed a Personal Portfolio Website
+        to showcase my skills and projects.
+    </p>
+
 </div>
+
 <div class="project">
     <h3>Cyber Threat Intelligence Dashboard</h3>
     <p>
@@ -153,30 +158,36 @@
 </div>
 
     <h2>Contact</h2>
-    <p><strong>Email:</strong>
+    <p class="email">
+    <strong>Email:</strong>
         <a href="mailto:vigneshrao719@gmail.com">
             vigneshrao719@gmail.com
         </a>
     </p>
-    <p>
-    <strong>Phone:</strong>
-    <strong>8123992696</strong>
+    <p class="Phone">
+        <strong>Phone: 8123992696</strong>
 </p>
-
-    <p><strong>WhatsApp:</strong>
+    <p class="whatsapp">
+    <strong>WhatsApp:</strong>
         <a href="https://wa.me/918123992696" target="_blank">
             Chat with me on WhatsApp
         </a>
     </p>
-    <p><strong>Linkedin:</strong>
-        <a href="https://www.linkedin.com/in/vignesh-rao-gr-5b5a0a342" target="_blank">
-            Click To Follow My Profile
-         </a>
+    <p class="linkedin">
+        <strong>Linkedin:</strong>
+        <a href="https://www.linkedin.com/in/vignesh-rao-g-r-5b5a0a342" target="_blank">
+            follow me on linkedin
+        </a>
     </p>
-   <h2>Resume(For More Details)</h2>
+   <h2>Resume (For more Details)</h2>
     <a href="assets/Vignesh_Resume.pdf" download class="rsume-btn">
          Download My Resume
     </a>
 </div>
+<script>
+function showMessage() {
+    alert("Welcome to Vignesh's Portfolio!");
+}
+</script>
 </body>
 </html>
