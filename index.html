@@ -99,6 +99,151 @@
          .number {
         font-weight: normal;
 }
+
+    
+/* Basic page settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #1f2937;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 8%;
+    background: #ffffff;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #172033;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #e28b61;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 28px;
+}
+
+.navbar nav a {
+    color: #374151;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar nav a:hover {
+    color: #d97745;
+}
+
+/* Hero section */
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    color: white;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(15, 23, 42, 0.88),
+            rgba(15, 23, 42, 0.25)
+        ),
+        url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=85");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hero text */
+.hero-content {
+    max-width: 680px;
+}
+
+.eyebrow {
+    color: #f3b18b;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 5vw, 64px);
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+
+.hero h1 span {
+    display: block;
+    color: #f3b18b;
+}
+
+.hero-description {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #e5e7eb;
+    margin-bottom: 32px;
+    max-width: 550px;
+}
+
+/* Call-to-action button */
+.hero-button {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 6px;
+    background: #e28b61;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.hero-button:hover {
+    background: #c76c43;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 20px 5%;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .navbar nav {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        min-height: 550px;
+        padding: 60px 6%;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+}
+
 </style>
     
 <body>
@@ -139,11 +284,11 @@
 
 <div class="project">
 
-    <h3>Personal Portfolio Website</h3>
+    <h3>My Portfolio Website</h3>
 
     <p>
         <strong>Description:</strong>
-        Designed and Developed a Personal Portfolio Website
+        Designed and Developed My Portfolio Website
         to showcase my skills and projects.
     </p>
 
@@ -176,9 +321,7 @@
             vigneshrao719@gmail.com
         </a>
     </p>
-    <p class="Phone">
-        <strong>Phone: 8123992696</strong>
-</p>
+    
     <p class="whatsapp">
     <strong>WhatsApp:</strong>
         <a href="https://wa.me/918123992696" target="_blank">
