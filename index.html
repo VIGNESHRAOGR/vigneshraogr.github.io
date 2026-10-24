@@ -1,357 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vignesh | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<Style>
-        
-body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    margin: 0;
-    color: #333;
-
-    background:
-        linear-gradient(
-            rgba(10, 18, 35, 0.65),
-            rgba(10, 18, 35, 0.65)
-        ),
-        url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=85");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-        .container {
-            max-width:900px;
-            margin: 40px auto;
-            padding: 30px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 5px;
-            color: #222;
-        }
-
-        .title {
-            text-align: center;
-            color: #555;
-            margin-bottom: 30px;
-            font-size: 16px;
-        }
-
-        h2 {
-            color: #0066cc;
-            margin-top: 30px;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 4px;
-        }
-
-        h3 {
-            margin-top: 15px;
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-        }
-
-        ul {padding-left: 20px;
-            line-height: 1.8;
-        }
-
-        .project {
-        background: #ffffff;
-        padding: 20px;
-        margin-top: 20px;
-        border-radius: 10px;
-        border-left: 5px solid #0166cc;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        transition: 0.3s;
-}
-
-         .project:hover {
-        transform: translateY(-5px);
-}
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-        .rsume-btn {
-            display: inline-block;
-            margin-top: 7px;
-            padding: 12px 22px;
-            background-color: #0784eb;
-            color: #ffffff;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .rsume-btn:hover {
-            background-color: #004999;
-        }
-        .label {
-         font-weight: bold;
-}
-
-         .number {
-        font-weight: normal;
-}
-
-    
-/* Basic page settings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    color: #1f2937;
-}
-
-/* Navigation bar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 8%;
-    background: #ffffff;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-    color: #172033;
-    text-decoration: none;
-}
-
-.logo span {
-    color: #e28b61;
-}
-
-.navbar nav {
-    display: flex;
-    gap: 28px;
-}
-
-.navbar nav a {
-    color: #374151;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.navbar nav a:hover {
-    color: #d97745;
-}
-
-/* Hero section */
-.hero {
-    min-height: 600px;
-    display: flex;
-    align-items: center;
-    padding: 80px 8%;
-    color: white;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(15, 23, 42, 0.88),
-            rgba(15, 23, 42, 0.25)
-        ),
-        url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=85");
-
-    background-size: cover;
-    background-position: center;
-}
-
-/* Hero text */
-.hero-content {
-    max-width: 680px;
-}
-
-.eyebrow {
-    color: #f3b18b;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    margin-bottom: 24px;
-}
-
-.hero h1 {
-    font-size: clamp(38px, 5vw, 64px);
-    line-height: 1.15;
-    margin-bottom: 24px;
-}
-
-.hero h1 span {
-    display: block;
-    color: #f3b18b;
-}
-
-.hero-description {
-    font-size: 17px;
-    line-height: 1.8;
-    color: #e5e7eb;
-    margin-bottom: 32px;
-    max-width: 550px;
-}
-
-/* Call-to-action button */
-.hero-button {
-    display: inline-block;
-    padding: 15px 25px;
-    border-radius: 6px;
-    background: #e28b61;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.hero-button:hover {
-    background: #c76c43;
-}
-
-/* Mobile-friendly layout */
-@media (max-width: 600px) {
-    .navbar {
-        padding: 20px 5%;
-        flex-wrap: wrap;
-        gap: 18px;
-    }
-
-    .navbar nav {
-        gap: 16px;
-        flex-wrap: wrap;
-    }
-
-    .hero {
-        min-height: 550px;
-        padding: 60px 6%;
-    }
-
-    .hero-description {
-        font-size: 15px;
-    }
-}
-
-</style>
-    
 <body>
-<div class="container">
 
-    <h1>Vignesh Rao</h1>
-   <p class="title">
-    Trainee Enterprise Support Engineer | Web Developer | Cybersecurity Enthusiast
-</p>
-    <hr>
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="index.html" class="logo">Vignesh<span>.</span></a>
 
-    <h2 class="center-heading">
-        About Me <button onclick="showMessage()">Click Me</button>
-</h2>
-    <h2>Career Objective</h2>
-    <p>
-        Motivated and detailed-oriented Computer science diploma student with a pasion for CyberSecurity and programming. seeking opportunities to apply technical knowledge, grow professionally and contribute meaningfully innovative project in the tech industry and learing full stack web development and building real-world projects.
-    </p>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <h2>Skills</h2>
-    <h3>Web Developement</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS (Learning)</li>
-        <li>JavaScript (Learning)</li>
-        <li>Node.js (Learning)</li>
-    </ul>
-    <h2>Hardware and Networking Skills</h2>
-    <ul>
-        <li>Computer Hardware Installation & Troubleshooting</li>
-        <li>Windows OS Installation and Configuration</li>
-        <li>Basic Networking Concepts (LAN, WAN, MAN)</li>
-        <li>IP Addressing (IPv4 basics)</li>
-        <li>Network Cable Crimping (RJ45)</li>
-        <li>Basic Knowledge of TCP/IP, DNS, DHCP</li>
-    </ul>
-    <h2>Projects</h2>
+    <!-- Home Hero -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
 
-<div class="project">
+                <p class="eyebrow">WELCOME TO MY WORLD</p>
 
-    <h3>My Portfolio Website</h3>
+                <h1>
+                    Turning Ideas Into
+                    <span>Digital Experiences.</span>
+                </h1>
 
-    <p>
-        <strong>Description:</strong>
-        Designed and Developed My Portfolio Website
-        to showcase my skills and projects.
-    </p>
+                <p class="hero-description">
+                    Hello! I'm a technology enthusiast exploring
+                    IT infrastructure, VMware, Linux, and networking.
+                    Welcome to my creative space.
+                </p>
 
-</div>
+                <a href="About.html" class="button">
+                    Explore My Work →
+                </a>
 
-<div class="project">
-    <h3>Cyber Threat Intelligence Dashboard</h3>
-    <p>
-        <strong>Description:</strong> A project focused on understanding and visualizing cyber threat intelligence data for security analysis.
-    </p>
-     <p>
-    <strong>Technologies:</strong> HTML, CSS (Learning Phase)
-      </p>
-</div>
-    
-<h2>Professional Experience</h2>
+            </div>
+        </section>
+    </main>
 
-<div class="project">
-    <h3>Trainee - Enterprise Support Engineer</h3>
-
-    <p>
-        Currently working as a Trainee Enterprise Support Engineer, gaining hands-on experience in enterprise IT support,
-        hardware troubleshooting, networking concepts, server infrastructure, and customer support.
-    </p>
-</div>
-    <h2>Contact</h2>
-    <p class="email">
-    <strong>Email:</strong>
-        <a href="mailto:vigneshrao719@gmail.com">
-            vigneshrao719@gmail.com
-        </a>
-    </p>
-    
-    <p class="whatsapp">
-    <strong>WhatsApp:</strong>
-        <a href="https://wa.me/918123992696" target="_blank">
-            Chat with me on WhatsApp
-        </a>
-    </p>
-    <p class="linkedin">
-        <strong>Linkedin:</strong>
-        <a href="https://www.linkedin.com/in/vignesh-rao-g-r-5b5a0a342" target="_blank">
-            follow me on linkedin
-        </a>
-    </p>
-    
-</div>
-<script>
-function showMessage() {
-    alert("Welcome to Vignesh's Portfolio!");
-}
-</script>
 </body>
 </html>
